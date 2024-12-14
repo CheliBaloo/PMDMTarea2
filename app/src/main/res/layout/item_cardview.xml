@@ -1,5 +1,5 @@
-<layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
     <data>
         <variable
             name="character"
@@ -15,13 +15,15 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
-            style="@style/card_back">
+            style="@style/card_back"
+            tools:ignore="UseCompoundDrawables">
 
             <ImageView
                 android:id="@+id/img_card"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_margin="15dp"
+                android:contentDescription="@string/char_description"
                 android:src="@drawable/ic_launcher_background" />
 
             <TextView

@@ -5,6 +5,7 @@ import android.content.res.Configuration;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
@@ -67,7 +68,11 @@ public class PreferencesFragment extends PreferenceFragmentCompat {
         super.onStart();
         // Cambia el título del ToolBar al cambia de fragmento
         if (getActivity() != null) {
-            ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle(R.string.settings);
+            ActionBar actionBar = ((AppCompatActivity) getActivity()).getSupportActionBar();
+            if (actionBar != null){
+                actionBar.setTitle(R.string.settings);
+            }
         }
+
     }
 }
