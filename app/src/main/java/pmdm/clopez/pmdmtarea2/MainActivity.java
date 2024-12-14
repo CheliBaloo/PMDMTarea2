@@ -1,7 +1,6 @@
 package pmdm.clopez.pmdmtarea2;
 
 import android.annotation.SuppressLint;
-import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.os.Bundle;
