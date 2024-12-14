@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MAIN ACTIVITY NIGHT STYLES -->
+    <style name="nav_view">
+        <item name="android:layout_marginTop">90dp</item>
+        <item name="drawerLayoutCornerSize">0dp</item>
+        <item name="android:background">@color/blue</item>
+        <item name="fontFamily">@font/supermario256</item>
+    </style>
+    <style name="toolbar_view">
+        <item name="android:background">@color/blue</item>
+        <item name="fontFamily">@font/supermario256</item>
+    </style>
+    <style name="splash">
+        <item name="background">@color/blue</item>
+    </style>
+    <style name="card_style">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="cardCornerRadius">15dp</item>
+        <item name="cardElevation">15dp</item>
+    </style>
+    <!-- LIST FRAGMENT NIGHT STYLES-->
+    <style name="card_back">
+        <item name="android:background">@drawable/cv_night</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="card_text">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">30dp</item>
+        <item name="fontFamily">@font/supermario256</item>
+    </style>
+    <style name="list_back">
+        <item name="android:background">@drawable/rv_night</item>
+    </style>
+    <!-- DETAILS FRAGMENT NIGHT STYLES-->
+    <style name="char_style">
+        <item name="android:padding">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/details_back_nigth</item>
+    </style>
+    <style name="details_back">
+        <item name="android:background">@drawable/rv_night</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">50dp</item>
+        <item name="android:paddingBottom">90dp</item>
+    </style>
+    <style name="details_frame">
+        <item name="android:background">@color/brown</item>
+        <item name="android:padding">15dp</item>
+    </style><style name="char_description">
+    <item name="android:layout_margin">10dp</item>
+    <item name="android:textSize">15sp</item>
+    <item name="android:textColor">@color/white</item>
+    <item name="fontFamily">casual</item>
+    <item name="android:textStyle">bold</item>
+</style>
+</resources>

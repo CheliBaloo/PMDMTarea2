@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">PMDMTarea2</string>
+    <string name="author" translatable="false">Consuelo López Prieto</string>
+    <!-- NAVIGATION DRAWER -->
+    <string name="open_drawer">Abrir menu</string>
+    <string name="close_drawer">Cerrar menu</string>
+    <string name="settings">Ajustes</string>
+    <string name="home">Home</string>
+    <string name="icon_description">Logo de la app</string>
+    <!-- ABOUT MENU -->
+    <string name="about">Acerca de</string>
+    <string name="about_info">Aplicación desarrollada por Consuelo López Prieto</string>
+    <string name="version">Version 1.0</string>
+    <string name="accept">Aceptar</string>
+    <!-- USER MESSAGES -->
+    <string name="welcome">Bienvenido al mundo de Super Mario</string>
+    <string name="character_details">Detalles del personaje</string>
+    <string name="character_list">Lista de personajes</string>
+    <string name="toast_msg">Ha seleccionado al personaje </string>
+    <!-- PREFERENCES -->
+    <string name="language">Idioma</string>
+    <string name="spanish">Español</string>
+    <string name="english">Inglés</string>
+    <string name="setting_summary">Activado para Inglés / Desactivado para Español</string>
+
+    <!-- PERSONAJES -->
+    <string name="char_description">Personaje</string>
+    <string name="char_abilities">Habilidades</string>
+    <!-- BOO -->
+    <string name="boo_name">Boo</string>
+    <string name="boo_description">Unos traviesos fantasmas que suelen deambular en lugares oscuros y abandonados.
+        Puede que estos fantasmas sean espeluznantes, pero también son increíblemente tímidos. \n\nSe congelarán en su lugar
+        y se cubrirán los ojos si alguien los mira directamente.</string>
+    <string name="boo_abilities">Invisibilidad\n\nAtraviesa paredes\n\nTeletrasportacion</string>
+    <!-- BOWSER -->
+    <string name="bowser_name">Bowser</string>
+    <string name="bowser_description">El rey de los Koopas. Bowser es el archienemigo de Mario y siempre está causando estragos
+        en el Reino Champiñón.Bowser cuenta con muchos secuaces que incluyen a los Koopas, Goombas, Bill Bala y Shy Guys. \n\nCada
+        vez que le pone la mirada al Reino Champiñón sus planes se ven frustrados por Mario y sus amigos.Este poderoso enemigo
+        posee una gran fuerza y hasta puede escupir fuego.</string>
+    <string name="bowser_abilities">Lanzallamas\n\nSuperfuerza\n\nAtaques con caparazon</string>
+    <!-- BOWSER JR-->
+    <string name="bowserjr_name">Bowser Jr</string>
+    <string name="bowserjr_description">Hijo único de Bowser, el rey de los Koopas. A menudo lo verás usando una intimidante máscara
+        con una boca pintada en ella. \n\nBowser Jr. es pequeño pero ha heredado la gran fuerza de su padre.Se vuelve berrinchudo si las
+        cosas no salen como él quiere. Es conocido por ser muy problemático y puede ser un poco egoísta.</string>
+    <string name="bowserjr_abilities">Lanzallamas\n\nSuperfuerza\n\nAgilidad</string>
+    <!-- DAISY-->
+    <string name="daisy_name">Princesa Daisy</string>
+    <string name="daisy_description">La princesa de Sarasaland. Su característico estilo se basa en su vestido de color amarillo y sus
+        floreados accesorios.Daisy es alegre, enérgica y con un corazón muy valiente. \n\nDisfruta de jugar diferentes deportes con Mario y
+        sus amigos.</string>
+    <string name="daisy_abilities">Control de flores\n\nAtletica</string>
+    <!-- Goomba-->
+    <string name="goomba_name">Goomba</string>
+    <string name="goomba_description">Los Goombas son unos de los enemigos más icónicos del universo de Super Mario. Originalmente fueron
+        miembros del Reino Champiñón que se volvieron contra el reino y se unieron a las fuerzas de Bowser. Son fáciles de derrotar,
+        generalmente con un simple salto sobre ellos.</string>
+    <string name="goomba_abilities">Ninguna</string>
+    <!-- KOOPA TROOPA-->
+    <string name="koopa_name">Koopa Troopa</string>
+    <string name="koopa_description">Son unos de los enemigos más antiguos y reconocibles. Son tortugas antropomórficas con caparazones de
+        colores brillantes, generalmente verdes o rojos. \n\nTienen un aspecto amigable, pero no te dejes engañar: pueden ser bastante desafiantes
+        en el juego.</string>
+    <string name="koopa_abilities">Caparazon arrojadizo</string>
+    <!-- LUIGI-->
+    <string name="luigi_name">Luigi</string>
+    <string name="luigi_description">Hermano de Mario y héroe del Reino Champiñón. Luigi es reconocido instantáneamente por su gorra y camisa de
+        color verde. Luigi es amable, pero un poco de nervioso, especialmente si hay fantasmas por ahí. \n\nSin embargo, sus habilidades igualan las
+        habilidades de Mario, así que cuando estos hermanos se unen, no hay nada que no puedan lograr. Luigi es más alto y puede saltar más alto
+        que Mario. Si pones atención, también podrás notar que la forma de su bigote también es un poco diferente.</string>
+    <string name="luigi_abilities">Salto Alto\n\nCazafantasmas</string>
+    <!-- MARIO-->
+    <string name="mario_name">Mario</string>
+    <string name="mario_description">El héroe principal del Reino Champiñón. Mario es muy positivo y siempre está alegre. Lo podrás reconocer por
+        sus overoles de color azul, su gorra roja y su característico bigote. \n\nEs un leal amigo de la princesa Peach y, junto a su hermano Luigi, es popular en todo el
+        reino gracias a su gran valentía y arrojo. \n\nMario se destaca en deportes como tenis, golf, béisbol, fútbol y hasta en las carreras de karts. ¡Es bueno en todos
+        los deportes! Es fontanero de profesión, pero la verdad es que es un experto en todos los oficios.</string>
+    <string name="mario_abilities">Super salto</string>
+    <!-- PEACH-->
+    <string name="peach_name">Princesa Peach</string>
+    <string name="peach_description">La querida princesa del Reino Champiñón. Es extremadamente amable y siempre está trabajando para crear un mundo en
+        el que todos puedan convivir juntos y felices. \n\nSu famoso vestido color rosa es encantador.La princesa Peach siempre está lista para participar en una gran variedad de
+        deportes, y también le encanta hornear y cocinar. Es una gran amiga de Mario y siempre se echan una mano cuando la situación lo requiere.</string>
+    <string name="peach_abilities">Flotar en el aire</string>
+    <!-- ESTELA -->
+    <string name="rosalina_name">Estela</string>
+    <string name="rosalina_description">Una misteriosa chica que viaja a través de la galaxia acompañada de su familia de criaturas con forma de estrella
+        llamadas destellos.Rosalina puede parecer un poco distante, pero en realidad es bastante bondadosa. \n\nEs la madre adoptiva de los destellos. Y
+        aunque su hogar está entre las estrellas, de vez en cuando se une a las aventuras de Mario y sus amigos.</string>
+    <string name="rosalina_abilities">Magia Estelar\n\nLevitar</string>
+    <!-- TOAD -->
+    <string name="toad_name">Toad</string>
+    <string name="toad_description">Residente del Reino Champiñón, trabaja al servicio de la Princesa Peach. Toad tiene manchas rojas en la cabeza, aunque
+        otros de su especie vienen en una variedad de colores.Toad es muy alegre y leal. \n\nHace todo lo posible por ayudar a Mario y a Luigi en sus esfuerzos
+        por proteger el Reino Champiñón de Bowser, incluso si eso significa enfrentarse al peligro durante en el proceso.</string>
+    <string name="toad_abilities">Velocidad</string>
+    <!-- WALUIGI -->
+    <string name="waluigi_name">Waluigi</string>
+    <string name="waluigi_description">Amigo y cómplice de Wario. Waluigi es el autoproclamado rival de Luigi.Waluigi está dispuesto a esforzarse para derrotar
+        a Mario y a Luigi, aunque solo sea para molestarlos. Sus largos brazos y piernas lo ayudan a mantenersecompetitivo en los deportes.</string>
+    <string name="waluigi_abilities">Astucia\n\nTrampas</string>
+    <!-- WARIO -->
+    <string name="wario_name">Wario</string>
+    <string name="wario_description">El autoproclamado archienemigo de Mario. Wario viste un overol color morado, una gorra amarilla y tiene un bigote en zigzag
+        que reconocerás al instante. \n\nWario y Mario se conocen desde que eran bebés. Posee una personalidad escandalosa y no se preocupa por las pequeñas cosas.
+         Le encanta el ajo y dinero.</string>
+    <string name="wario_abilities">Superfuerza</string>
+    <!-- YOSHI -->
+    <string name="yoshi_name">Yoshi</string>
+    <string name="yoshi_description">El confiable compañero de Mario originario de la Isla de Yoshi. Es de color verde, pero otros de su especie vienen de otros
+        colores, como rojo, azul, rosa y amarillo. \n\nYoshi es amable y tranquilo. Utiliza su larga lengua para comerse las frutas y a los enemigos, los cuales puede
+        convertir en huevos que podrá arrojar.</string>
+    <string name="yoshi_abilities">Lengüetazo\n\nLanzahuevos\n\nSalto mantenido</string>
+</resources>

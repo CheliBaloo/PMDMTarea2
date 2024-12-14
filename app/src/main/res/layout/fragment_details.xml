@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/details_back">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/card_style" >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/char_style">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/img_character"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:layout_margin="20dp"
+                    android:src="@drawable/luigi"
+                    android:contentDescription="@string/char_description"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    style="@style/details_frame">
+                    <TextView
+                        android:id="@+id/name_character"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/luigi_name"
+                        android:textSize="40sp"
+                        style="@style/titles"/>
+                    <TextView
+                        android:id="@+id/desc_character"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/luigi_description"
+                        style="@style/char_description" />
+
+                    <View
+                        android:id="@+id/divider"
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:background="?android:attr/listDivider" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/char_abilities"
+                        android:textSize="30sp"
+                        style="@style/titles" />
+                    <TextView
+                        android:id="@+id/ab_character"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/luigi_abilities"
+                        style="@style/char_abilities"/>
+
+                </LinearLayout>
+            </LinearLayout>
+    </ScrollView>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

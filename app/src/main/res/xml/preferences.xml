@@ -1,0 +1,11 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:title="@string/settings">
+        <SwitchPreferenceCompat
+            android:key="language"
+            android:title="@string/language"
+            android:summary="@string/setting_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

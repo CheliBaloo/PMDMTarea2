@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PMDMAssigment2</string>
+    <string name="open_drawer">Open menu</string>
+    <string name="close_drawer">Close Menu</string>
+    <string name="home">Home</string>
+    <string name="icon_description">App\'s Logo</string>
+    <string name="about_info">App developed by Consuelo López Prieto</string>
+    <string name="version">Version 1.0</string>
+    <string name="about">About</string>
+    <string name="accept">Accept</string>
+    <string name="welcome">Welcome to the Super Mario World</string>
+    <string name="character_details">Character details</string>
+    <string name="character_list">Character List</string>
+    <string name="toast_msg">"You have chosen the character "</string>
+    <string name="language">Lenguage</string>
+    <string name="spanish">Spanish</string>
+    <string name="english">English</string>
+    <string name="settings">Settings</string>
+    <string name="setting_summary">Enable to English/Disable to Spanish</string>
+
+    <!-- CHARACTERS -->
+    <string name="char_description">Character</string>
+    <string name="char_abilities">Abilities</string>
+    <!-- BOO -->
+    <string name="boo_name">Boo</string>
+    <string name="boo_description">Mischievous ghosts that tend to roam dark, abandoned places. These ghosts may be creepy, but they are
+        also incredibly shy. \n\nThey will freeze in place and cover their eyes if anyone looks directly at them.</string>
+    <string name="boo_abilities">Invisibility\n\nWall-through\n\nTeleportation</string>
+    <!-- BOWSER -->
+    <string name="bowser_name">Bowser</string>
+    <string name="bowser_description">The King of the Koopas. Bowser is Mario\'s archrival and is always causing trouble in the Mushroom Kingdom.
+        Bowser commands many underlings, including Koopa Troopas, Goombas, Bullet Bills and Shy Guys. \n\nWhenever he sets his sights on the Mushroom Kingdom, his plans are
+        often foiled by Mario and friends. Bowser is a mighty foe who possesses incredible strength and can even breathe fire.</string>
+    <string name="bowser_abilities">Flamethrower\n\nSuperstrength\n\nShell Atacks</string>
+    <!-- BOWSER JR-->
+    <string name="bowserjr_name">Bowser Jr</string>
+    <string name="bowserjr_description">The only son of Bowser, the King of the Koopas. He is often seen wearing a mask with an intimidating mouth drawn
+        on it. Bowser Jr. is small but has inherited great strength from his father. He may throw a tantrum if things don\'t go his way. He is known to cause plenty of trouble
+        and can be a bit selfish.</string>
+    <string name="bowserjr_abilities">Flamethrower\n\nSuperstrength\n\nAgility</string>
+    <!-- DAISY-->
+    <string name="daisy_name">Princess Daisy</string>
+    <string name="daisy_description">The princess of Sarasaland. Her trademark style includes her yellow dress and flowery accessories. Daisy is cheerful,
+        energetic, and enjoys playing a variety of sports with Mario and friends.</string>
+    <string name="daisy_abilities">Flowers control\n\nAthletic</string>
+    <!-- Goomba-->
+    <string name="goomba_name">Goomba</string>
+    <string name="goomba_description">Goombas are one of the most iconic enemies in the Super Mario universe. They were originally members of the Mushroom
+        Kingdom who turned against the kingdom and joined Bowser\'s forces. \n\nThey are easy to defeat, usually with a simple jump on them.</string>
+    <string name="goomba_abilities">Any</string>
+    <!-- KOOPA TROOPA-->
+    <string name="koopa_name">Koopa Troopa</string>
+    <string name="koopa_description">They are one of the oldest and most recognizable enemies. They are anthropomorphic turtles with brightly colored shells,
+        usually green or red. They look friendly, but don\'t be fooled: they can be quite challenging in the game.</string>
+    <string name="koopa_abilities">Shell Attack</string>
+    <!-- LUIGI-->
+    <string name="luigi_name">Luigi</string>
+    <string name="luigi_description">Mario\'s brother and fellow hero of the Mushroom Kingdom. Luigi is instantly recognisable in his trademark green hat and green shirt.
+        Luigi is kind but can be a bit nervous, especially around ghosts. \n\nHowever, his abilities are on par with Mario\'s, so when these brothers team up, there\'s nothing they can\'t achieve.
+        Luigi is taller and can jump higher than Mario. If you look closely, you may also notice that the shape of his moustache is a bit different as well.</string>
+    <string name="luigi_abilities">High Jumps\n\nGosthbuster</string>
+    <!-- MARIO-->
+    <string name="mario_name">Mario</string>
+    <string name="mario_description">The main hero of the Mushroom Kingdom. Mario is always bright and cheerful and instantly recognisable with his
+        blue overalls, red cap and trademark moustache. \n\nHe is a trusted friend of Princess Peach, and he and his brother Luigi are known across the land for their acts of
+        bravery. Mario excels at sports including tennis, golf, baseball, football and even kart racing. \n\nHe is good at all of them! He is a plumber by profession but is really
+        a jack of all trades.</string>
+    <string name="mario_abilities">Superjumps</string>
+    <!-- PEACH-->
+    <string name="peach_name">Princess Peach</string>
+    <string name="peach_description">The beloved princess of the Mushroom Kingdom. She is extremely kind and is always working to create a world where everyone can
+        live together happily. Her signature pink dress is quite lovely. \n\nPrincess Peach is always game for a variety of sports, and also enjoys baking and cooking. Princess Peach and Mario
+        are good friends and help each other out whenever they can.</string>
+    <string name="peach_abilities">Floating</string>
+    <!-- ROSALINA -->
+    <string name="rosalina_name">Rosalina</string>
+    <string name="rosalina_description">A mysterious lady who travels the galaxy accompanied by her family of star-like creatures called Lumas. Rosalina may seem a bit distant,
+        but she is actually quite kind-hearted. \n\nShe is the adoptive mother of the Lumas. Though her home is among the stars, she will sometimes join Mario and friends on their adventures.</string>
+    <string name="rosalina_abilities">Star Magic\n\nLevitate</string>
+    <!-- TOAD -->
+    <string name="toad_name">Toad</string>
+    <string name="toad_description">A resident of the Mushroom Kingdom who works in service of Princess Peach. Toad has red spots on his head, though others
+        of his kind come in a variety of colours. \n\nToad is very cheerful and loyal. He does his best to help Mario and Luigi in their efforts to protect the Mushroom Kingdom from
+        Bowser, even if he ends endangering himself in the process.</string>
+    <string name="toad_abilities">Velocity</string>
+    <!-- WALUIGI -->
+    <string name="waluigi_name">Waluigi</string>
+    <string name="waluigi_description">Wario\'s pal and accomplice. Waluigi is the self-proclaimed rival of Luigi. Waluigi is willing to put in a lot of effort
+        to best Mario and Luigi, if only to annoy them. His long arms and long legs help keep him competitive at sports.</string>
+    <string name="waluigi_abilities">Trickery\n\nCheater</string>
+    <!-- WARIO -->
+    <string name="wario_name">Wario</string>
+    <string name="wario_description">The self-professed archrival of Mario. Wario wears purple overalls, a yellow hat, and has an instantly recognisable zigzag moustache.
+        \n\nWario and Mario have known each other since they were babies. He\'s got a boisterous personality and doesn\'t sweat the small things. He loves garlic and making money.</string>
+    <string name="wario_abilities">Superstrength</string>
+    <!-- YOSHI -->
+    <string name="yoshi_name">Yoshi</string>
+    <string name="yoshi_description">Mario\'s dependable companion who hails from Yoshi\'s Island. He is green, but others of his kind may be other colours such as red,
+        blue, pink and yellow. \n\nYoshi is kind and carefree. He uses his long tongue to gobble up fruit and enemies, which he can turn into eggs for throwing.</string>
+    <string name="yoshi_abilities">Lick\n\nEggthrower\n\nLong Jumps</string>
+</resources>

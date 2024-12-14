@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MAIN ACTIVITY STYLES-->
+    <style name="nav_view">
+        <item name="android:layout_marginTop">90dp</item>
+        <item name="drawerLayoutCornerSize">0dp</item>
+        <item name="android:background">@color/red</item>
+        <item name="android:fontFamily">@font/supermario256</item>
+    </style>
+    <style name="toolbar_view">
+        <item name="android:background">@color/red</item>
+        <item name="fontFamily">@font/supermario256</item>
+        <item name="android:paddingTop">30dp</item>
+    </style>
+    <style name="splash">
+        <item name="android:background">@color/red</item>
+    </style>
+    <style name="nav_header">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!-- LIST FRAGMENT STYLES-->
+    <style name="card_style">
+        <item name="android:layout_margin">10dp</item>
+        <item name="cardCornerRadius">15dp</item>
+        <item name="cardElevation">10dp</item>
+    </style>
+    <style name="card_back">
+        <item name="android:background">@drawable/cv_light</item>
+    </style>
+    <style name="card_text">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">30dp</item>
+        <item name="fontFamily">@font/supermario256</item>
+    </style>
+    <style name="list_back">
+        <item name="android:background">@drawable/rv_back</item>
+    </style>
+    <!-- DETAILS FRAGMENT STYLES-->
+    <style name="char_style">
+        <item name="android:padding">20dp</item>
+        <item name="android:background">@drawable/details_back</item>
+    </style>
+    <style name="char_description">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">casual</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="details_frame">
+        <item name="android:background">@color/yellow</item>
+        <item name="android:padding">15dp</item>
+    </style>
+    <style name="char_abilities">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">@font/supermario256</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="details_back">
+        <item name="android:background">@drawable/rv_back</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">50dp</item>
+        <item name="android:paddingBottom">90dp</item>
+    </style>
+    <style name="titles">
+        <item name="android:fontFamily">@font/supermario256</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+    <!-- ABOUT MENU STYLE-->
+    <style name="about">
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+</resources>
