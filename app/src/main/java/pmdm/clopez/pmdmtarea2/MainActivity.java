@@ -1,6 +1,6 @@
 package pmdm.clopez.pmdmtarea2;
 
-import android.annotation.SuppressLint;
+import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.os.Bundle;
@@ -9,7 +9,6 @@ import android.view.MenuItem;
 import android.view.View;
 
 import androidx.activity.EdgeToEdge;
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -112,6 +111,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onSupportNavigateUp() {
         Fragment navHostFragment = getSupportFragmentManager().findFragmentById(R.id.nav_host_fragment);
+        binding.drawerLayout.closeDrawers();
         if (navHostFragment != null) {
             NavController navController = NavHostFragment.findNavController(navHostFragment);
             return NavigationUI.navigateUp(navController, binding.drawerLayout) || super.onSupportNavigateUp();
@@ -147,9 +147,8 @@ public class MainActivity extends AppCompatActivity {
      * @param item El elemento del menú seleccionado
      * @return Verdadero si se ha abierto la opción seleccionada
      */
-    @SuppressLint("InflateParams")
     @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+    public boolean onOptionsItemSelected(MenuItem item) {
         //Para que funcione lel menú lateral
         if (toggle.onOptionsItemSelected(item)) {
             return true;
@@ -160,9 +159,11 @@ public class MainActivity extends AppCompatActivity {
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             builder.setView(getLayoutInflater().inflate(R.layout.about_dialogue, null))
                     .setTitle(R.string.about)
-                    .setPositiveButton(R.string.accept, (dialog, id) -> {
-                        //Acciones a realizar cuando pulsamos el botón.
-                        dialog.cancel();
+                    .setPositiveButton(R.string.accept, new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            //Acciones a realizar cuando pulsamos el botón.
+                            dialog.cancel();
+                        }
                     });
             builder.show();
         }

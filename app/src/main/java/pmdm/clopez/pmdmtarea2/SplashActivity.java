@@ -1,6 +1,5 @@
 package pmdm.clopez.pmdmtarea2;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
@@ -14,7 +13,6 @@ import pmdm.clopez.pmdmtarea2.databinding.ActivitySplashBinding;
 /**
  * Clase encarga de mostrar la pantalla Splash al iniciar la app en versiones de API inferiores a 31
  */
-@SuppressLint("CustomSplashScreen")
 public class SplashActivity extends AppCompatActivity {
 
     /** Binding de la pantalla de splash */
@@ -36,10 +34,13 @@ public class SplashActivity extends AppCompatActivity {
             setContentView(binding.getRoot()); //mostramos la pantalla
 
             //Controlamos el inicio de la MainActivity
-            new Handler().postDelayed(() -> {
-                Intent intent = new Intent(SplashActivity.this, MainActivity.class);
-                startActivity(intent);
-                finish();
+            new Handler().postDelayed(new Runnable(){
+                @Override
+                public void run(){
+                    Intent intent = new Intent(SplashActivity.this, MainActivity.class);
+                    startActivity(intent);
+                    finish();
+                }
             }, SPLASH_TIME);
         }else{ //si API>= 31, se muestra directamente la MainActivity
             Intent intent = new Intent(SplashActivity.this, MainActivity.class);

@@ -16,7 +16,7 @@ import pmdm.clopez.pmdmtarea2.databinding.ItemCardviewBinding;
  */
 public class CharacterRecyclerViewAdapter extends RecyclerView.Adapter<CharacterViewHolder> {
     /**Lista de Character (datos con los que trabajará la app) */
-    private final ArrayList<Character> characters;
+    private ArrayList<Character> characters;
     /**Contexto del ViewHolder*/
     private final Context context;
 

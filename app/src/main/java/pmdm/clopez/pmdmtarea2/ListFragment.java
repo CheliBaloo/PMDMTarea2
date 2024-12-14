@@ -4,15 +4,19 @@ import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
+
 import com.google.android.material.snackbar.Snackbar;
+
 import java.util.ArrayList;
+
 import pmdm.clopez.pmdmtarea2.databinding.FragmentListBinding;
 
 /**
@@ -75,10 +79,7 @@ public class ListFragment extends Fragment {
         // Cambia el título del ActionBar
         if (getActivity() != null) {
             //Le damos el título a la actividad que nos indica qué fragmento está activo
-            ActionBar actionBar = ((AppCompatActivity) getActivity()).getSupportActionBar();
-            if (actionBar != null){
-                actionBar.setTitle(R.string.character_list);
-            }
+            ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle(R.string.character_list);
         }
     }
 }
