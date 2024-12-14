@@ -4,6 +4,7 @@ import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
@@ -71,7 +72,11 @@ public class DetailsFragment extends Fragment {
         super.onStart();
         // Cambia el título de la ToolBar
         if (getActivity() != null) {
-            ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle(R.string.character_details);
+            //Le damos el título a la actividad que nos indica qué fragmento está activo
+            ActionBar actionBar = ((AppCompatActivity) getActivity()).getSupportActionBar();
+            if (actionBar != null) {
+                actionBar.setTitle(R.string.character_details);
+            }
         }
     }
 }

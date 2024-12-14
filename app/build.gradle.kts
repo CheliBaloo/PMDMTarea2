@@ -42,7 +42,7 @@ dependencies {
     implementation(libs.recyclerview)
     implementation(libs.cardview)
     implementation(libs.core.splashscreen)
-    implementation("androidx.preference:preference:1.2.1")
+    implementation(libs.preference)
 
     implementation(libs.appcompat)
     implementation(libs.material)
