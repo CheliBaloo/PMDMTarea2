@@ -2,10 +2,10 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.PMDMTarea2" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- SPLASH SCREEN -->
-        <item name="android:windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_round</item>
-        <item name="android:windowSplashScreenAnimationDuration">3000</item>
-        <item name="android:windowSplashScreenIconBackgroundColor">@color/blue</item>
-        <item name="android:windowSplashScreenBackground">@color/blue</item>
+        <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="s">@mipmap/ic_launcher_round</item>
+        <item name="android:windowSplashScreenAnimationDuration" tools:targetApi="s">3000</item>
+        <item name="android:windowSplashScreenIconBackgroundColor" tools:targetApi="s">@color/blue</item>
+        <item name="android:windowSplashScreenBackground" tools:targetApi="s">@color/blue</item>
 
     </style>
 </resources>

@@ -3,10 +3,10 @@
     <style name="Base.Theme.PMDMTarea2" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="android:textSize">20sp</item>
         <!-- SPLASH SCRREEN para v>=12 -->
-        <item name="android:windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_round</item>
-        <item name="android:windowSplashScreenAnimationDuration">3000</item>
-        <item name="android:windowSplashScreenIconBackgroundColor">@color/red</item>
-        <item name="android:windowSplashScreenBackground">@color/red</item>
+        <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="s">@mipmap/ic_launcher_round</item>
+        <item name="android:windowSplashScreenAnimationDuration" tools:targetApi="s">3000</item>
+        <item name="android:windowSplashScreenIconBackgroundColor" tools:targetApi="s">@color/red</item>
+        <item name="android:windowSplashScreenBackground" tools:targetApi="s">@color/red</item>
     </style>
 
 

@@ -20,8 +20,7 @@ public class PreferencesFragment extends PreferenceFragmentCompat {
 
     /**Metodo que crea el fragmento de preferencias
      * @param savedInstanceState Estado anterior guardado para recrearlo
-     * @param rootKey            Si no es nulo, key que vincula con la pantalla de preferencias en
-     *                           {@link PreferenceScreen}
+     * @param rootKey            Si no es nulo, key que vincula con la pantalla de preferencias
      */
     @Override
     public void onCreatePreferences(@Nullable Bundle savedInstanceState, @Nullable String rootKey) {
