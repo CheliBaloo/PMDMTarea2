@@ -5,13 +5,13 @@ package pmdm.clopez.pmdmtarea2;
  */
 public class Character {
     /** Nombre del personaje*/
-    private String name;
+    private final String name;
     /** ID de la imagen del personaje*/
-    private int image;
+    private final int image;
     /** Descripción del personaje*/
-    private String description;
+    private final String description;
     /** Habilidades del personaje*/
-    private String abilities;
+    private final String abilities;
 
     /**
      * Constructor con cuatro parámetros
