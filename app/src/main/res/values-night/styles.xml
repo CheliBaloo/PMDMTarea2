@@ -10,6 +10,7 @@
     <style name="toolbar_view">
         <item name="android:background">@color/blue</item>
         <item name="fontFamily">@font/supermario256</item>
+        <item name="android:paddingTop">30dp</item>
     </style>
     <style name="splash">
         <item name="background">@color/blue</item>
